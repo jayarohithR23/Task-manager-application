@@ -1,0 +1,29 @@
+{
+  "name": "taskflow-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "express",
+    "mongodb"
+  ],
+  "author": "Jayarohith R",
+  "license": "MIT",
+  "description": "Backend API server for TaskFlow task management application",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
